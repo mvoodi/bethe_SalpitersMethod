@@ -21,6 +21,8 @@ int main() {
         printf("\n%f", ave);
         i++;
     }
-    
+    double answer = ans / i;
+    printf("\nANWER: %f", answer);
+    return 0;
 
 }
