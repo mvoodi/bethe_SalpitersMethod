@@ -16,5 +16,11 @@ int main() {
         double random_double = (double)rand() / RAND_MAX;
         double r = (b - a) * random_double;
         double ansforR = sin(r);
+        ans = ans + ansforR * r;
+        double ave = ans / i;
+        printf("\n%f", ave);
+        i++;
     }
+    
+
 }
