@@ -15,5 +15,6 @@ int main() {
     while(i <= n){
         double random_double = (double)rand() / RAND_MAX;
         double r = (b - a) * random_double;
+        double ansforR = sin(r);
     }
 }
